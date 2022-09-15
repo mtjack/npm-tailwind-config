@@ -1,40 +1,41 @@
 module.exports = {
     theme: {
       colors: {
-        blue: {
-          light: '#85d7ff',
-          DEFAULT: '#1fb6ff',
-          dark: '#009eeb',
-        },
-        pink: {
-          light: '#ff7ce5',
-          DEFAULT: '#ff49db',
-          dark: '#ff16d1',
-        },
-        gray: {
-          darkest: '#1f2d3d',
-          dark: '#3c4858',
-          DEFAULT: '#c0ccda',
-          light: '#e0e6ed',
-          lightest: '#f9fafc',
-        }
+        "brand-primary": "#082545",
+        "brand-secondary": "#3B5777",
+        "brand-tertiary": "#2D62A0",
+        "brand-alt": "#E67D84",
+        "light-bg": "#f0f3f6",
+        "dark-bg": "#e7ebee",
+        "medium-bg": "#fafafa",
+        "darker-bg": "#d0d4dc",
+        "text-color": "#333d47",
+        "dark-green": "#32735C",
+        "light-green": "#91ae2b",
+        "border-lightgrey": "#ebebeb",
+        "border-lightblue": "#9dabbb",
+        "border-darkgrey": "#dcdcdc",
+        "text-darkgrey": "#646464",
+        "text-mediumgrey": "#646464",
+        "medium-bg": "#fafafa",
+        "dark-red": "#960212",
+        "light-pink": "#ffebee",
+        "mint-green": "#eef3defa",
+        "baby-blue": "#dde5f0",
+        "light-yellow": "#fff3dd",
+        "white": "#ffffff",
       },
-      extend: {
-        flexGrow: {
-          2: '2',
-          3: '3',
-        },
-        zIndex: {
-          60: '60',
-          70: '70',
-          80: '80',
-          90: '90',
-          100: '100',
-        },
-      }
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+      },
+      fontSize: {
+        base: ["18px", "1.5"],
+        xs: ["16px", "1.5"],
+        sm: ["20px", "1.1"],
+        md: ["24px", "1.1"],
+        lg: ["32px", "1.1"],
+        xl: ["40px", "1.1"],
+        xxl: ["50px", "1.25"],
+      },
     },
-    plugins: [
-      require('@tailwindcss/typography'),
-      require('@tailwindcss/aspect-ratio'),
-    ],
   }
